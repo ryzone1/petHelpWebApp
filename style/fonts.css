@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Oranienbaum&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+/* Noto Sans: 
+<weight>: Use a value from 100 to 900
+<width>: Use a value from 62.5 to 100
+<uniquifier>: Use a unique and descriptive class name
+"Noto Sans", sans-serif;
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+}
+
+Oranienbaum:
+.oranienbaum-regular {
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+Roboto:
+<weight>: Use a value from 100 to 900
+<width>: Use a value from 75 to 100
+<uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+}
+*/

@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light dark" />
-    <title>ПЕт</title>
-    <script src="./src/script.js"></script>
-    <link rel="stylesheet" href="./style/main.css />
+    <meta name="color-scheme" content="light" />
+    <title>Безымянная страница</title>
+    <link rel="stylesheet" href="./style/globals.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/fonts.css" />
 </head>
+<body class="page">
+    <header class="header">
+        <h1 class="header_logo"><a href="#">Вместе</a></h1>
+        <nav>
+    <ul class="menu">
+        <li><a href="#chat">Чат</a></li>
+        <li><a href="#articles">Статьи</a></li>
+        <li><a href="#">О проекте</a></li>
+    </ul>
+</nav>
+        <a href="#" class="button button_header">Обратная связь</a>
+    </header>
 
+    <main class="main">
+        <section id="chat" class="listensection">
+            <div class="div1 card card_main card_main_background_1">
+                <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 -960 960 960"><path d="M493-490v-400q0-13 8.68-21.5 8.67-8.5 21.5-8.5 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v400h-60Zm-167 0v-360q0-13 8.68-21.5 8.67-8.5 21.5-8.5 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v360h-60ZM495.06-40q-139.94 0-237.5-97T160-374v-396q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v396q0 114.87 79.8 194.43Q379.59-100 494.8-100 610-100 691-180.5 772-261 780-376v-154h-10q-21.25 0-35.62 14.37Q720-501.25 720-480v150H610q-38 0-64 26t-26 64v30h-60v-30q0-63 43.5-106.5T610-390h50v-420q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v232q11-6 24-9t26-3h70v214q-8 141-106.5 238.5T495.06-40ZM530-345Z"/></svg>
+                <span class="card_main_text">Послушай</span>
+            </div>
+            <div class="listen card card_main card_main_background_2">
+                <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 -960 960 960"><path d="M475-140q5 0 11.5-2.5T497-149l337-338q13-13 19.5-29.5T860-550q0-17-6.5-34T834-614L654-794q-13-13-30-19.5t-34-6.5q-17 0-33.5 6.5T527-794l-18 18 81 82q13 14 23 32.5t10 40.5q0 38-29.5 67T526-525q-25 0-41.5-7.5T454-554l-73-73-181 181q-5 5-7 10.5t-2 11.5q0 13 8.5 21.5T221-394q6 0 11.5-3t9.5-7l117-117q9-9 21-9t21 9q9 9 9 21t-9 21L285-363q-5 5-7 11t-2 12q0 12 9 21t21 9q6 0 11.5-2.5t9.5-6.5l117-117q9-9 21-9t21 9q9 9 9 21t-9 21L370-278q-4 4-6.5 10.5T361-255q0 12 9 21t21 9q6 0 11-2t10-7l117-117q9-9 21-9t21 9q9 9 9 21t-9 21L454-192q-5 5-7 11t-2 11q0 14 8 22t22 8Zm0 60q-33 0-59-24.5T385-165q-34-5-57-28t-28-57q-34-5-56.5-28.5T216-335q-37-5-61-30t-24-60q0-17 6.5-34t19.5-30l182-182q17-17 42-17t42 17l68 68q8 8 17.5 12.5T527-586q13 0 24.5-11.5T563-622q0-6-3.5-13.5T548-651L405-794q-13-13-30-19.5t-34-6.5q-17 0-33.5 6.5T278-794L126-642q-20 20-24.5 48.5T108-539q5 11 0 22.5T92-500q-11 5-23 0t-17-16q-17-45-10-89.5T84-685l151-151q22-22 50-32.5t57-10.5q29 0 56.5 10.5T448-836l18 18 18-18q22-22 50-32.5t57-10.5q29 0 56.5 10.5T697-836l179 179q22 22 33 50t11 57q0 29-11 56.5T876-444L539-107q-13 13-29.5 20T475-80Zm-97-546Z"/></svg>
+                <span class="card_main_text">Слушаю</span>
+            </div>
+            <div class="listenimg card"><img class="img" src="https://images.unsplash.com/photo-1598133775474-0ec9c9111e83?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+        </section>
+
+        <section id="articles" class="articles">
+            <div class="articles_nav">
+                <h3 class="articles_heading">Полезное</h3>
+                <ul class="articles_nav_cat">
+                    <li><a class="button button_articles button_articles_active" href="#">Видео</a></li>
+                    <li><a class="button button_articles" href="#">Статьи</a></li>
+                </ul>
+                </div>
+                <!-- Переделать на тоглы -->
+                <ul class="articles_nav_tegs">
+                    <li><a class="button button_articles" href="#">Стресс</a></li>
+                    <li><a class="button button_articles" href="#">Тоска</a></li>
+                    <li><a class="button button_articles" href="#">Одиночество</a></li>
+                </ul>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
 </html>
