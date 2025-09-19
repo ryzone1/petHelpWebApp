@@ -1,0 +1,48 @@
+:root {
+  /* ЦВЕТА — палитра */
+  --color-bg-primary: #f2f7f6;        /* основной фон сайта */
+  --color-bg-secondary: #eaf4f4;      /* фон карточек, иконок */
+  --color-text-primary: #6e6e6e;      /* основной текст, кнопки */
+  --color-text-secondary: #767676;    /* меню, второстепенный текст */
+  --color-accent: #6b9080;            /* акцентный цвет — иконки */
+  --color-border: #bac4c4;            /* цвет границ */
+  --color-border-light: #dee8e8;      /* цвет линий в SVG-фоне */
+  --color-white: #fff;                /* белый фон элементов */
+
+  /* РАЗМЕРЫ — отступы, радиусы, зазоры */
+  --spacing-xs: 5px;
+  --spacing-sm: 8px;
+  --spacing-md: 10px;
+  --spacing-lg: 15px;
+  --spacing-xl: 20px;
+  --spacing-xxl: 25px;
+  --spacing-xxxl: 30px;
+  --spacing-huge: 40px;
+  --spacing-massive: 50px;
+
+  --border-radius-sm: 10px;
+  --border-radius-md: 30px;
+  --border-radius-lg: 35px;
+  --border-radius-circle: 50%;
+
+  /* ШРИФТЫ */
+  --font-size-small: 1rem;
+  --font-size-nav: 1.7rem;
+  --font-size-heading-md: 2rem;
+  --font-size-heading-lg: 3rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* СЕТКА и АДАПТИВНОСТЬ */
+  --grid-min-card-width: 280px;
+  --aspect-ratio-square: 1 / 1;
+  --aspect-ratio-wide: 3 / 1;
+
+  /* ТЕНИ и ГРАНИЦЫ */
+  --border-width-default: 1px;
+  --box-shadow-default: 9px 8px 20px 0px #bac4c461;
+
+}
+

@@ -7,7 +7,9 @@
       <meta name="color-scheme" content="light" />
       <title>Безымянная страница</title>
       <link rel="stylesheet" href="./style/globals.css" />
+      <link rel="stylesheet" href="./style/variables.css" />
       <link rel="stylesheet" href="./style/main.css" />
+      <link rel="stylesheet" href="./style/dark_theme.css" />
       <link rel="stylesheet" href="./style/fonts.css" />
    </head>
    <body class="page">
@@ -19,18 +21,27 @@
                <li><a href="#articles">Статьи</a></li>
                <li><a href="#">О проекте</a></li>
             </ul>
+            
          </nav>
-         <a href="#" class="button">Обратная связь</a>
       </header>
       <main class="main">
          <section id="chat" class="listen_section">
-            <div class="listen_card listen_card_background">
-               <h3 class="listen_card_heading">Послушай</h3>
-               <p>Хочу поделиться своими мыслями</p>
+            <div class="listen_card pulse listen_card_background">
+               <div class="listen_card_text">
+                  <h3 class="listen_card_heading">Послушай</h3>
+                  <p>Хочу поделиться своими мыслями</p>
+               </div>
+               <div class="listen_card_chat_conteiner">
+                  <div>
+                     <h6></h6>
+                  </div>
+               </div>
             </div>
             <div class="listen_card listen_card_background">
-               <h3 class="listen_card_heading">Слушаю</h3>
-               <p>Выслушаю человека в сложной ситуации</p>
+               <div class="listen_card_text">
+                  <h3 class="listen_card_heading">Слушаю</h3>
+                  <p>Хочу помочь</p>
+               </div>
             </div>
          </section>
          <section id="articles" class="articles">
