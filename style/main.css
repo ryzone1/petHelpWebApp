@@ -205,6 +205,20 @@ html {
   align-items: center;
 }
 
+.footer {
+    display: flex;
+    padding: var(--spacing-lg);
+    text-align: center;
+    color: var(--color-text-primary);
+    gap: var(--spacing-xxl);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer p {
+    display: block;
+}
+
 .pulse {
   animation: pulse-animation 2s infinite;
 }
